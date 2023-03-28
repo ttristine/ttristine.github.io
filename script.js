@@ -1,4 +1,4 @@
-for (let i = 0; i < 50; i++) {
+for (let i = 0; i < 500; i++) {
 	const raindrop = document.createElement('div');
 	raindrop.className = 'raindrop';
 	raindrop.style.left = Math.random() * window.innerWidth + 'px';
